@@ -1,0 +1,16 @@
+h1 {
+    background: rgba(20, 179, 109, 0.2); color: red;
+    text-align: center;
+}
+p {
+    background: #40941e; color: lightgray;
+}
+h2 {
+background: #25609a; color: #d50f2d;
+}
+ul {
+background: #c9e3da; color: darkslategray;
+}
+li{
+background: #052525; color: coral;
+}
