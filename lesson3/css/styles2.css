@@ -1,0 +1,92 @@
+.main{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.upper{
+    height: 60px;
+    background: lightblue;
+    position: relative;
+}
+.middle{
+    height: 200px;
+    background: darkslateblue;
+    position: relative;
+}
+.lower{
+    height: 90px;
+    background: lightblue;
+}
+.upleft{
+    width: 50px;
+    height: 20px;
+    background: darkslateblue;
+    border: darkslateblue 1px solid;
+    border-radius: 4px;
+    position: absolute;
+    top: 30px;
+    transform: translateY(-50%);
+    left: 50px;
+}
+.buttons{
+    display: flex;
+}
+.right1{
+     height: 20px;
+     width: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: absolute;
+     top: 30px;
+     transform: translateY(-50%);
+    right: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .right2{
+     height: 20px;
+     width: 20px;
+     border: 1px solid black;
+     border-radius: 3px;
+     position: absolute;
+     top: 30px;
+     transform: translateY(-50%);
+     right: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .left{
+     width: 100px;
+     height: 100px;
+     border: solid 1px midnightblue;
+     border-radius: 8px;
+     background: midnightblue;
+     position: absolute;
+     bottom: -50px;
+     left: 100px;
+ }
+ .center{
+     width: 100px;
+     height: 100px;
+     border: solid 1px midnightblue;
+     border-radius: 8px;
+     margin: 0 10px;
+     background: midnightblue;
+     position: absolute;
+     bottom: -50px;
+     left: 250px;
+     transform: translateX(-50%);
+ }
+ .right{
+     width: 100px;
+     height: 100px;
+     border: solid 1px midnightblue;
+     border-radius: 8px;
+     background: midnightblue;
+     position: absolute;
+     bottom: -50px;
+     right: 80px;
+ }
