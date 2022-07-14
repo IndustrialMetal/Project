@@ -1,0 +1,29 @@
+.main {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+}
+.a {
+    width: 980px;
+    height: 190px;
+    border: 1px solid red;
+    margin: 10px 0 10px 10px;
+}
+.bc {
+    width: 980px;
+    height: 380px;
+    margin: 10px;
+    border: 1px solid red;
+    display: flex;
+}
+.b {
+    width: 600px;
+    height: 380px;
+    border: 1px solid blue;
+}
+.c {
+    width: 370px;
+    height: 380px;
+    border: 1px solid blue;
+    margin-left: 10px;
+}
